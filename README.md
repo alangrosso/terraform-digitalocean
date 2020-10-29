@@ -62,7 +62,7 @@ $ doctl  -t $DIGITALOCEAN_API_TOKEN compute  size list
 
 **terraform.tfvars**
 ```
-do_token = "ce7dfc7f164a7001f76048313b0970bd46092f20569b9780ac242b00c9a7a1cb"
+do_token = "xxxdfc7f164a7001f76048313b0970bd46092f20569b9780ac242b00c9a7axxx"
 droplet_ssh_key_id = "1632017"
 droplet_name = "server-by-terraform"
 droplet_image = "ubuntu-20-04-x64"
