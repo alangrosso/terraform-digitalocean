@@ -3,14 +3,9 @@ Terraform template to create a VM with Digital Ocean.
 
 ## Requirements
 
-Install Terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
+- Install Packer to build the image:  https://learn.hashicorp.com/tutorials/terraform/install-cli
+- Get a Digital Ocean API token: https://cloud.digitalocean.com/account/api/tokens
 
-To provision the infrastructure , it is necessary to have an account in Digital Ocean. Once we have the account, we must give  access to Terraform using an API Token so it can create the infrastructure for us.
-
-
-### Digital Ocean Token
-
-To generate a token, go to the page: https://cloud.digitalocean.com/account/api/tokens and create it. 
 
 ## How to create the VM
 
