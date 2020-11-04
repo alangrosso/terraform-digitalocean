@@ -3,7 +3,7 @@ Terraform template to create a VM with Digital Ocean.
 
 ## Requirements
 
-- Install Packer to build the image:  https://learn.hashicorp.com/tutorials/terraform/install-cli
+- Install Terraform:  https://learn.hashicorp.com/tutorials/terraform/install-cli
 - Get a Digital Ocean API token: https://cloud.digitalocean.com/account/api/tokens
 
 
@@ -74,7 +74,8 @@ droplet_region = "nyc1"
 
 
 To deploy the server we just have to execute the following commands:
-```
 
+```
 $ terraform plan
 $ terraform apply
+```
